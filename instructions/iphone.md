@@ -6,7 +6,7 @@ Since the TestFlight external testing approach needs manual one-by-one invitatio
 
 Their approach can be used for testing, beta signup, or internal delivery purposes, in a neat and convenient way.
 
-Please follow their [instructions](https://github.com/fastlane/boarding), and upload your iPhone app's automatic signup app to e.g. Heroku, and provide it's link for the [configuration](../README.me#configuration-file-appjs).
+Please follow their [instructions](https://github.com/fastlane/boarding), and upload your iPhone app's automatic signup app to e.g. Heroku, and provide it's link for the [configuration](../README.md#configuration-file-appjs).
 
 
 
