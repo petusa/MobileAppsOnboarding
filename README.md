@@ -1,7 +1,7 @@
 # MobileAppsOnboarding
 Guidelines with some boilerplate about how to distribute your Android and iOS mobile apps outside the stores (GooglePlay, AppStore).
 
-Using this repository's boilerplate HTML files with the right application [configuration values](#configuration-file-app-js), you can host and share your own one pagers anywhere as static pages and share only a single link which opens up as needed on the respective Desktop/Android/iOS patforms.
+Using this repository's boilerplate HTML files with the right application [configuration values](#configuration-file-appjs), you can host and share your own one pagers anywhere as static pages and share only a single link which opens up as needed on the respective Desktop/Android/iOS patforms.
 
 The sample below shows the case when you host these pages from localhost (of course you'd better host if publicly, it is only for demo purpose): 
 
@@ -18,7 +18,7 @@ The sample below shows the case when you host these pages from localhost (of cou
 ## How to use
 
 1. clone this repository
-2. set values properly in app.js
+2. set values properly in app.js, see [configuration values](#configuration-file-appjs)
 3. host the HTML files + app.js from the same folder anywhere you want (from Gtihub CDN, Google CDN, own webserver, corporeate website, etc...)
 4. share the link of the index.html file with anyone who you would like to test your application
 
