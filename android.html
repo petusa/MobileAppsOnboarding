@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+  <script src="app.js"></script>
+  <script>document.write("<title>" + APP_INFO.name + "</title>");</script>
+  <link rel="stylesheet" media="all" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+  <style type="text/css">
+    .appIcon {
+      -webkit-border-radius: 22.544%;
+        -moz-border-radius: 22.544%;
+          -ms-border-radius: 22.544%;
+              border-radius: 22.544%;
+      width: 256px;
+    }
+    #redirect, #download {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container" style="text-align: center; max-width: 350px; padding-top: 20px;">
+      <script>document.write("<img class='appIcon' style='margin-bottom: 30px;' src='" + APP_INFO.image_url + "' alt='340x340bb 80' />");</script>
+      <h4><script>document.write(APP_INFO.name);</script></h4>
+      <p><script>document.write(APP_INFO.description);</script><p>
+      <br>
+      <br>
+      <script>document.write("<a href='" + APP_INFO.android_hockey_app_download_url + "' download name='download' class='btn btn-lg btn-primary btn-block' id='download'>Direct download</a>");</script>
+      <br>
+      <p style="border-bottom:1px black dashed;"></p>
+      <br>
+      <script>document.write("<a href='javascript:void(0)' onclick=window.parent.location=\'" + APP_INFO.android_hockey_app_url + "\' name='redirect' class='btn btn-lg btn-primary btn-block' id='redirect'>Use Hockey App to install</a>");</script>
+      *registration required
+  </div>
+</body>
+</html>

@@ -1,0 +1,1 @@
+## How to use TestFlight and Fastlane/boarding to publish your IPA file

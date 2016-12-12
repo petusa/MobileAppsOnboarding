@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Signup page</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="app.js"></script>
+        <script>
+            console.dir(APP_INFO);
+            function g() {
+                var ua = navigator.userAgent || navigator.vendor || window.opera;
+                // Windows Phone must come first because its UA also contains "Android"
+                if (/windows phone/i.test(ua)) { return "WindowsPhone"; }
+                if (/android/i.test(ua)) { return "Android"; }
+                // iOS detection from: http://stackoverflow.com/a/9039885/177710
+                if (/iPhone|iPod/.test(ua) && !window.MSStream) { return "iPhone";}
+                if (/iPad/.test(ua) && !window.MSStream) { return "iPhone";}
+                return "desktop";
+            }
+            var target = g().toLowerCase() + ".html";
+            document.write("<iframe src='"+target+"' style='border: 0; position:absolute; top:0; left:0; right:0; bottom:0; width:100%; height:100%'>"); 
+        </script>
+    </head>
+    <body></body>
+</html>
