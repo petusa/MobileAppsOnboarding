@@ -1,7 +1,7 @@
 # MobileAppsOnboarding
 Guidelines with some boilerplate about how to distribute your Android and iOS mobile apps outside the stores (GooglePlay, AppStore).
 
-Using this repository's boilerplate HTML files with the right application [configuration values](#configuration-file-appjs), you can host and share your own one pagers anywhere as static pages and share only a single link which opens up as needed on the respective Desktop/Android/iOS patforms.
+Using this repository's boilerplate HTML files with the right application [configuration values](#configuration-file-appjs), you can host and share your own one pager installers anywhere as static pages and share only a single link which opens up as needed on the respective Desktop/Android/iOS patforms.
 
 ---
 
