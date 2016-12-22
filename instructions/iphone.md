@@ -6,5 +6,5 @@ Since the TestFlight external testing approach needs manual one-by-one invitatio
 
 Their approach can be used for testing, beta signup, or internal delivery purposes, in a neat and convenient automatic way, instead of manually adding one by one each and every potential testers.
 
-1. Please follow their [instructions](https://github.com/fastlane/boarding) to deploy your iPhone app's automatic signup app to e.g. Heroku, 
-2. after that provide the deployer Heroku app's link for the [configuration](../README.md#configuration-file-appjs), to use these with the boilerplpates HTML pages with [Petusa/MobileAppsOnboarding](https://github.com/petusa/MobileAppsOnboarding).
+1. Please follow their [instructions](https://github.com/fastlane/boarding) to deploy your iPhone app's automatic signup app to e.g. Heroku, it is very quick
+2. after that provide the deployed (Heroku) signup app's link for the [configuration](../README.md#configuration-file-appjs), to use these with the boilerplpates HTML pages with [Petusa/MobileAppsOnboarding](https://github.com/petusa/MobileAppsOnboarding).
