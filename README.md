@@ -17,14 +17,15 @@ This is what your mobile browser will show, when you open/scan this link from yo
 
 ## Prerequisite
 
-I our case, we simply used [HockeyApp](https://www.hockeyapp.net/) for hosting our Android app's APK file, with direct download possibility:
+I our case, we simply use now [HockeyApp](https://www.hockeyapp.net/) for hosting our Android app's APK file, with direct download possibility:
 
 - [Android pre-requisite](instructions/android.md)
 
-We used [iTunesConnect](https://itunesconnect.apple.com/) with [TestFlight application](https://developer.apple.com/testflight/) to host and distribute the properly signed iPhone IPA file. We also used the [Fastlane/boarding](https://github.com/fastlane/boarding) automatic signup approach for easier TestFlight onboarding:
+We use [iTunesConnect](https://itunesconnect.apple.com/) with [TestFlight application](https://developer.apple.com/testflight/) to host and distribute the properly signed iPhone IPA file. We also use the [Fastlane/boarding](https://github.com/fastlane/boarding) automatic signup approach for easier TestFlight onboarding:
 
 - [iOS pre-requisite](instructions/iphone.md)
 
+Of ourse there might be different distribution and App hosting approaches, too.
 
 ## How to use
 
