@@ -21,7 +21,7 @@ I our case, we simply used [HockeyApp](https://www.hockeyapp.net/) for hosting o
 
 - [Android pre-requisite](instructions/android.md)
 
-We used iTunesConnect with TestFlight to host and distribute the properly signed iPhone IPA file. We also used an automatic signup approach TestFlight onboarding:
+We used [iTunesConnect](https://itunesconnect.apple.com/) with [TestFlight application](https://developer.apple.com/testflight/) to host and distribute the properly signed iPhone IPA file. We also used the [Fastlane/boarding](https://github.com/fastlane/boarding) automatic signup approach for easier TestFlight onboarding:
 
 - [iOS pre-requisite](instructions/iphone.md)
 
