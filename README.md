@@ -8,12 +8,21 @@ Using this repository's boilerplate HTML files with the right application [confi
 The sample below shows the case when you host these pages from localhost (of course you'd better host if publicly, it is only for demo purpose): 
 
 ![Desktop page for platform specific download/install link and QR code](https://github.com/petusa/MobileAppsOnboarding/blob/master/screenshots/desktop.png)
+
+This is what your mobile browser will show, when you open/scan this link from your Android or iPhone:
+
 ![Android download and direct download page for HockecyApp hosted version](https://github.com/petusa/MobileAppsOnboarding/blob/master/screenshots/android_hockeyapplinks.png)
+
 ![iPhone signup page for TestFlight app](https://github.com/petusa/MobileAppsOnboarding/blob/master/screenshots/iphone_fastlaneboarding.png)
 
 ## Prerequisite
 
+I our case, we simply used [HockeyApp](https://www.hockeyapp.net/) for hosting our Android app's APK file, with direct download possibility:
+
 - [Android pre-requisite](instructions/android.md)
+
+We used iTunesConnect with TestFlight to host and distribute the properly signed iPhone IPA file. We also used an automatic signup approach TestFlight onboarding:
+
 - [iOS pre-requisite](instructions/iphone.md)
 
 
