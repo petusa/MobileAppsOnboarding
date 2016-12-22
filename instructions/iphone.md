@@ -1,6 +1,6 @@
 ## How to use TestFlight and Fastlane/boarding to publish your IPA file
 
-This description assumes that you have already an application version uploaded to [iTunesConnect](https://itunesconnect.apple.com/), and available for external testing via the [TestFlight application](https://developer.apple.com/testflight/), so it went already throught Apple's beta app review.
+This description assumes that you have already an application version uploaded to [iTunesConnect](https://itunesconnect.apple.com/), and available for external testing via the [TestFlight application](https://developer.apple.com/testflight/), so it went already through Apple's beta app review.
 
 Since the TestFlight external testing approach needs manual one-by-one invitations by the iTunesConnect app manager (there is also a bulk upload approach, though), a better and quicker way for distributing your iPhone/iPad applications to a limited group of people (either be it in your organization, or outside), is using [Fastlane/boarding](https://github.com/fastlane/boarding)'s signup application.
 
